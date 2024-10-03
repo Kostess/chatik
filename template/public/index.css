@@ -1,0 +1,19 @@
+* {
+    font-family: 'Arial';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.app-container {
+    flex: 1;
+    height: 100%;
+}
+
+.chat-container {
+    overflow: scroll;
+}
